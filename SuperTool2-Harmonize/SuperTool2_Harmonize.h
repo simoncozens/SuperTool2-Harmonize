@@ -7,11 +7,10 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import <GlyphsCore/GSFilterPlugin.h>
+#import <GlyphsCore/GlyphsFilterProtocol.h>
+#import <GlyphsCore/GSGlyphViewControllerProtocol.h>
 
-@interface SuperTool2_Harmonize : GSFilterPlugin {
-	CGFloat _firstValue;
-	NSTextField * __unsafe_unretained _firstValueField;
+
+@interface SuperTool2_Harmonize : NSObject <GlyphsFilter> {
 }
-@property (nonatomic, assign) IBOutlet NSTextField* firstValueField;
 @end
