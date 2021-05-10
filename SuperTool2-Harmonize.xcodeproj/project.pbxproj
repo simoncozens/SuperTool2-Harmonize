@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4A2387A26494EF000771C35 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A2387926494EF000771C35 /* Cocoa.framework */; };
+		F4A2387D26494EF000771C35 /* SuperTool2-Harmonize-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = F4A2387C26494EF000771C35 /* SuperTool2-Harmonize-Prefix.pch */; };
+		F4A2388026494EF000771C35 /* GlyphsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A2387F26494EF000771C35 /* GlyphsCore.framework */; };
+		F4A2388326494EF000771C35 /* SuperTool2_Harmonize.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A2388226494EF000771C35 /* SuperTool2_Harmonize.m */; };
+		F4A2388626494EF000771C35 /* SuperTool2_HarmonizeDialog.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4A2388426494EF000771C35 /* SuperTool2_HarmonizeDialog.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4A2387626494EF000771C35 /* SuperTool2-Harmonize.glyphsFilter */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SuperTool2-Harmonize.glyphsFilter"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A2387926494EF000771C35 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F4A2387C26494EF000771C35 /* SuperTool2-Harmonize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperTool2-Harmonize-Prefix.pch"; sourceTree = "<group>"; };
+		F4A2387F26494EF000771C35 /* GlyphsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GlyphsCore.framework; path = /Applications/Glyphs.app/Contents/Frameworks/GlyphsCore.framework; sourceTree = "<absolute>"; };
+		F4A2388126494EF000771C35 /* SuperTool2_Harmonize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperTool2_Harmonize.h; sourceTree = "<group>"; };
+		F4A2388226494EF000771C35 /* SuperTool2_Harmonize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperTool2_Harmonize.m; sourceTree = "<group>"; };
+		F4A2388526494EF000771C35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = ../en.lproj/SuperTool2_HarmonizeDialog.xib; sourceTree = "<group>"; };
+		F4A2388726494EF000771C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4A2387326494EF000771C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A2388026494EF000771C35 /* GlyphsCore.framework in Frameworks */,
+				F4A2387A26494EF000771C35 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4A2386D26494EF000771C35 = {
+			isa = PBXGroup;
+			children = (
+				F4A2387B26494EF000771C35 /* SuperTool2-Harmonize */,
+				F4A2387826494EF000771C35 /* Frameworks */,
+				F4A2387726494EF000771C35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4A2387726494EF000771C35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A2387626494EF000771C35 /* SuperTool2-Harmonize.glyphsFilter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A2387826494EF000771C35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4A2387926494EF000771C35 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4A2387B26494EF000771C35 /* SuperTool2-Harmonize */ = {
+			isa = PBXGroup;
+			children = (
+				F4A2387C26494EF000771C35 /* SuperTool2-Harmonize-Prefix.pch */,
+				F4A2388126494EF000771C35 /* SuperTool2_Harmonize.h */,
+				F4A2388226494EF000771C35 /* SuperTool2_Harmonize.m */,
+				F4A2388726494EF000771C35 /* Info.plist */,
+				F4A2387E26494EF000771C35 /* Supporting Files */,
+			);
+			path = "SuperTool2-Harmonize";
+			sourceTree = "<group>";
+		};
+		F4A2387E26494EF000771C35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4A2387F26494EF000771C35 /* GlyphsCore.framework */,
+				F4A2388426494EF000771C35 /* SuperTool2_HarmonizeDialog.xib */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4A2387526494EF000771C35 /* SuperTool2-Harmonize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A2388A26494EF000771C35 /* Build configuration list for PBXNativeTarget "SuperTool2-Harmonize" */;
+			buildPhases = (
+				F4A2387226494EF000771C35 /* Sources */,
+				F4A2387326494EF000771C35 /* Frameworks */,
+				F4A2387426494EF000771C35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SuperTool2-Harmonize";
+			productName = "SuperTool2-Harmonize";
+			productReference = F4A2387626494EF000771C35 /* SuperTool2-Harmonize.glyphsFilter */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A2386E26494EF000771C35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F4A2387526494EF000771C35 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = F4A2387126494EF000771C35 /* Build configuration list for PBXProject "SuperTool2-Harmonize" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4A2386D26494EF000771C35;
+			productRefGroup = F4A2387726494EF000771C35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A2387526494EF000771C35 /* SuperTool2-Harmonize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4A2387426494EF000771C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A2388626494EF000771C35 /* SuperTool2_HarmonizeDialog.xib in Resources */,
+				F4A2387D26494EF000771C35 /* SuperTool2-Harmonize-Prefix.pch in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4A2387226494EF000771C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A2388326494EF000771C35 /* SuperTool2_Harmonize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4A2388426494EF000771C35 /* SuperTool2_HarmonizeDialog.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4A2388526494EF000771C35 /* en */,
+			);
+			name = SuperTool2_HarmonizeDialog.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4A2388826494EF000771C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F4A2388926494EF000771C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4A2388B26494EF000771C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = GHYRZM4TBD;
+				DSTROOT = "$(USER_LIBRARY_DIR)/Application Support/Glyphs/Plugins";
+				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Glyphs.app/Contents/Frameworks";
+				GCC_PREFIX_HEADER = "SuperTool2-Harmonize/SuperTool2-Harmonize-Prefix.pch";
+				INFOPLIST_FILE = "SuperTool2-Harmonize/Info.plist";
+				INSTALL_PATH = /;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.corvelsoftware.SuperTool2-Harmonize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = glyphsFilter;
+			};
+			name = Debug;
+		};
+		F4A2388C26494EF000771C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GHYRZM4TBD;
+				FRAMEWORK_SEARCH_PATHS = "$(SYSTEM_APPS_DIR)/Glyphs.app/Contents/Frameworks";
+				GCC_PREFIX_HEADER = "SuperTool2-Harmonize/SuperTool2-Harmonize-Prefix.pch";
+				INFOPLIST_FILE = "SuperTool2-Harmonize/Info.plist";
+				INSTALL_PATH = /;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.corvelsoftware.SuperTool2-Harmonize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = glyphsFilter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4A2387126494EF000771C35 /* Build configuration list for PBXProject "SuperTool2-Harmonize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A2388826494EF000771C35 /* Debug */,
+				F4A2388926494EF000771C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A2388A26494EF000771C35 /* Build configuration list for PBXNativeTarget "SuperTool2-Harmonize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A2388B26494EF000771C35 /* Debug */,
+				F4A2388C26494EF000771C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4A2386E26494EF000771C35 /* Project object */;
+}
